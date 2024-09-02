@@ -13,7 +13,6 @@
     }
 
     .container-fluid {
-      display: flex;
       align-items: center;
       min-height: 100vh;
       margin-top: 50px;
@@ -21,7 +20,7 @@
     }
 
     .scroll-table-div {
-      height: 80vh;
+      height: 60vh;
       min-height: 500px;
       overflow-y: auto;
     }
@@ -93,31 +92,93 @@
 <body>
   <div class="container-fluid">
     <div class="row g-4">
-      <h2>Rent Policy</h2>
+      <h2> Branches </h2>
       <div class="col-6  scroll-table-div   table-responsive-sm  w-100 ">
-        <table class=" tables-style table  " id="Rent-Policy">
+        <table class=" tables-style table  " id="branches">
           <thead>
             <tr>
-              <th>policyDate</th>
-              <th>newPolicy</th>
-              <th>defaultPolicy</th>
-              <th>active</th>
-              <th>notes</th>
-              <th>contractExtensionPolicyByPhone</th>
-              <th>accidentsReportingPolicyByPhone</th>
-              <th>faultReporingPolicyByPhone</th>
-              <th>faultReporingPolicy</th>
-              <th>numberOfDaysToExtendBeforeContractEndDate</th>
-              <th>fuelReturnPolicy</th>
-              <th>contractExtensionPolicy</th>
-              <th>accidentsAndFaultReportingPolicy</th>
-              <th>earlyReturnPolicy</th>
-              <th>shortName</th>
+              <th colspan="15">license</th>
+              <th>accountId</th>
              <th>id</th>
             </tr>
           </thead>
           <tbody>
-
+         
+           <tr>
+            <th>id</th>
+            <th>main</th>
+            <th>crName</th>
+           <th>licenseNumber</th>
+           <th>crNumber</th>
+           <th>cityArName</th>
+           <th>cityEnName</th>
+           <th>regionArName</th>
+           <th>regionEnName</th>
+           <th>districtAr</th>
+           <th>districtEn</th>
+           <th>streetAr</th>
+           <th>streetEn</th>
+           <th>postalCode</th>
+           <th>buildingNumber</th>
+           <td>10271</td>
+           <td>10965</td>
+          </tr>
+          <tr>
+            <td>10982</td>
+            <td>true</td>
+            <td>مؤسسة حامد محمد الفته لتأجير السيارات</td>
+            <td>020302004100</td>
+            <td>4032019900</td>
+            <td>محافظة الطائف</td>
+            <td>Taef</td>
+            <td>مكّة المكرّمة</td>
+            <td>Makkah</td>
+            <td>القمرية</td>
+            <td>Qamriya</td>
+            <td>شارع وادي وج</td>
+            <td>Wadi Waj Street</td>
+            <td>26523</td>
+            <td>6527</td>
+          </tr>
+          <tr>
+            <td>11036</td>
+            <td>true</td>
+            <td>مؤسسة سماء المتحدة للمواصلات لصاحبها سراج علي العرابي الحارثي</td>
+           <td>14/00000001</td>
+           <td>4030186547</td>
+           <td>الرياض</td>
+           <td>Riyadh</td>
+           <td>الرياض</td>
+           <td>Riyadh</td>
+           <td>الضباط</td>
+           <td>ADH Dhubbat</td>
+           <td>الحارث بن الحباب</td>
+           <td>Al Harith Ibn Al Habbab</td>
+           <td>12623</td>
+           <td>null</td>
+           <td>10271</td>
+           <td>11018</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row g-4">
+      <h2> Extended Coverage </h2>
+      <div class="col-6  scroll-table-div   table-responsive-sm  w-100 ">
+        <table class=" tables-style table  " id="ExtendedCoverage">
+          <thead>
+            <tr>
+              <th>logTime</th>
+              <th>createdBy</th>
+              <th>extendedCoverageDescription</th>
+              <th>extendedCoverageName</th>
+             <th>id</th>
+            </tr>
+          </thead>
+          <tbody>
+         
+        
           </tbody>
         </table>
       </div>
