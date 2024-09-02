@@ -16,8 +16,8 @@ function populateTable(jsonFilePath, tableSelector, columnOrder) {
 }
 
 
-const RentPolicy =['policyDate','newPolicy','defaultPolicy','active','notes','contractExtensionPolicyByPhone','accidentsReportingPolicyByPhone','faultReporingPolicyByPhone','faultReporingPolicy','numberOfDaysToExtendBeforeContractEndDate','fuelReturnPolicy','contractExtensionPolicy','accidentsAndFaultReportingPolicy' , 'earlyReturnPolicy' , 'shortName' , "id"]
+const ExtendedCoverage =["logTime","createdBy", "extendedCoverageDescription","extendedCoverageName", "id"]
 
 
-populateTable("files/rent-policy.json", "#Rent-Policy", RentPolicy);
+populateTable("files/Extended Coverage.json", "#ExtendedCoverage", ExtendedCoverage);
 
