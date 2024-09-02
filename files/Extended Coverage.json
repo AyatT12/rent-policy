@@ -1,0 +1,23 @@
+[
+  {
+    "id": 10092,
+    "extendedCoverageName": "تأمين شامل",
+    "extendedCoverageDescription": "لايوجد تحمل",
+    "createdBy": "1000000073",
+    "logTime": "2024-02-06T17:01:15.412"
+  },
+  {
+    "id": 10095,
+    "extendedCoverageName": "مساعده على الطريق",
+    "extendedCoverageDescription": " مساعده على الطريق بحالة الحوادث والاعطال",
+    "createdBy": "1000312098",
+    "logTime": "2024-02-18T18:29:06.662"
+  },
+  {
+    "id": 10096,
+    "extendedCoverageName": "استلام المركبة",
+    "extendedCoverageDescription": "استلام المركبة من موقع العميل",
+    "createdBy": "1000312098",
+    "logTime": "2024-02-26T16:29:46.364"
+  }
+]

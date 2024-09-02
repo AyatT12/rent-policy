@@ -1,0 +1,44 @@
+[
+  {
+    "id": 10965,
+    "accountId": 10271,
+    "license": {
+      "id": 10982,
+      "main": true,
+      "crName": "مؤسسة حامد محمد الفته لتأجير السيارات",
+      "licenseNumber": "020302004100",
+      "crNumber": "4032019900",
+      "cityArName": "محافظة الطائف",
+      "cityEnName": "Taef",
+      "regionArName": "مكّة المكرّمة",
+      "regionEnName": "Makkah",
+      "districtAr": "القمرية",
+      "districtEn": "Qamriya",
+      "streetAr": "شارع وادي وج",
+      "streetEn": "Wadi Waj Street",
+      "postalCode": "26523",
+      "buildingNumber": "6527"
+    }
+  },
+  {
+    "id": 11018,
+    "accountId": 10271,
+    "license": {
+      "id": 11036,
+      "main": true,
+      "crName": "مؤسسة سماء المتحدة للمواصلات لصاحبها سراج علي العرابي الحارثي",
+      "licenseNumber": "14/00000001",
+      "crNumber": "4030186547",
+      "cityArName": "الرياض",
+      "cityEnName": "Riyadh",
+      "regionArName": "الرياض",
+      "regionEnName": "Riyadh",
+      "districtAr": "الضباط",
+      "districtEn": "ADH Dhubbat",
+      "streetAr": "الحارث بن الحباب",
+      "streetEn": "Al Harith Ibn Al Habbab",
+      "postalCode": "12623",
+      "buildingNumber": null
+    }
+  }
+]
